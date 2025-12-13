@@ -1,0 +1,160 @@
+{
+    "information": {
+        "name": "ET Fadezz",
+        "location": "Fontana, CA",
+        "phone": "+16262164488",
+        "phone_ui": "(626) 216-4488"
+    },
+    "business_hours": [
+        {
+            "day": "Monday",
+            "open": "10am",
+            "close": "7pm",
+            "closed": false
+        },
+        {
+            "day": "Tuesday",
+            "open": "10am",
+            "close": "7pm",
+            "closed": false
+        },
+        {
+            "day": "Wednesday",
+            "open": "10am",
+            "close": "7pm",
+            "closed": false
+        },
+        {
+            "day": "Thursday",
+            "open": "10am",
+            "close": "7pm",
+            "closed": false
+        },
+        {
+            "day": "Friday",
+            "open": "9am",
+            "close": "3pm",
+            "closed": false
+        },
+        {
+            
+            "day": "Saturday",
+            "open": "Check online",
+            "close": "",
+            "closed": false
+        },
+        {
+            
+            "day": "Sunday",
+            "open": "Check online",
+            "close": "",
+            "closed": false
+        }
+    ],
+    "social_media": {
+        "instagram_name": "@etfadezz",
+        "instagram_url": "https://www.instagram.com/etfadezz/"
+    },
+    "services": [
+        {
+            "title": "Haircut",
+            "description": "A fresh, modern haircut with precise cuts for a clean look.",
+            "price": "20.00",
+            "iconSrc": "clippers.svg"
+        },
+        {
+            "title": "Haircut + Beard",
+            "description": "A stylish haircut combined with expert beard trimming for a balanced appearance.",
+            "price": "30.00",
+            "iconSrc": "recliner.svg"
+        },
+        {
+            "title": "House call",
+            "description": "We come directly to your doorstep, delivering crisp haircuts and styling tailored to your needs.",
+            "price": "60.00+",
+            "iconSrc": "home.svg"
+        },
+        {
+            "title": "Senior Haircut",
+            "description": "A classic haircut designed specifically for clients over 60, offering a comfortable, timeless style.",
+            "price": "15.00",
+            "iconSrc": "haircut.svg"
+        },
+        {
+            "title": "Lineup",
+            "description": "A sharp, precise service to define your edges and keep your look neat.",
+            "price": "10.00",
+            "iconSrc": "blade.svg"
+        },
+        {
+            "title": "Shave",
+            "description": "A traditional straight razor or nape shave that delivers a smooth, crisp finish.",
+            "price": "10.00",
+            "iconSrc": "razor.svg"
+        }
+    ],
+    "faqs": { 
+        "categories": [
+            {
+                "title": "General",
+                "description": "Answers to your general questions about our barbershop, services, and policies.",
+                "imgSrc": "/src/assets//faqs/barberPole.svg",
+                "href": "faqs-general"
+            },
+            {
+                "title": "Payment & Pricing",
+                "description": "Explore accepted payment methods, pricing details, and resolving payment issues.",
+                "imgSrc": "/src/assets/faqs/creditCard.svg",
+                "href": "faqs-pricing"
+            },
+            {
+                "title": "Booking & Appointments",
+                "description": "Guidance on making, editing, and cancelling appointments, with info on fees and policies.",
+                "imgSrc": "/src/assets/faqs/calendar.svg",
+                "href": "faqs-appointments"
+            }
+        ],
+        "general": [
+            {
+                "question": "Where is your barbershop located, and what areas do you serve?",
+                "answer": "Our barbershop is proudly based in Fontana, CA. Beyond our Fontana location, we expand our reach with convenient house-call services in cities across San Bernardino County, Orange County, and Los Angeles County. For more detailed information on specific service areas or to verify availability in your neighborhood, please contact us. We're committed to bringing exceptional service right to your doorstep."
+            },
+            {
+                "question": "Do you cut kids' hair?",
+                "answer": "Yes, we do! We cater to children of all ages and take pride in offering professional kids’ haircuts in a friendly, welcoming environment. Each child receives a precise and stylish haircut, making the experience enjoyable for both kids and parents. Whether you're booking an appointment online or scheduling via phone or text, we're here to help your little ones look their absolute best."
+            },
+            {
+                "question": "Do you have a public restroom?",
+                "answer": "No, we do not have a public restroom available at our barbershop. We focus exclusively on providing a premium, personalized grooming experience, so please plan accordingly if you require restroom access."
+            },
+            {
+                "question": "How can I contact your shop for more information or to ask a question?",
+                "answer": "To reach out for more details about our premium services, simply call or text us at (626) 216-4488. You can also send us a direct message on our Instagram page, @etfadezz. Our team is ready to answer your questions and help guide you toward the best barbershop experience possible."
+            }
+        ],
+        "pricing": [
+            {
+                "question": "What payment methods do you accept?",
+                "answer": "Our online scheduling platform accepts all major credit cards along with mobile payment options for a smooth, hassle-free transaction experience. For appointments booked over the phone or via text, we require a deposit using either Zelle or Apple Pay. These options ensure that every scheduling experience is both secure and convenient."
+            },
+            {
+                "question": "How do you calculate the price of a house call?",
+                "answer": "The cost is determined by the distance traveled from our Fontana base, the number of clients served during the appointment, and the specific types of services requested. Please note that our minimum charge is $60, regardless of all other factors. For a precise quote that reflects your unique requirements, please contact us directly."
+            }
+        ],
+        "appointments": [
+            {
+                "question": "Do I need an appointment, or are walk-ins welcome?",
+                "answer": "We operate on an appointment-only basis to ensure each client receives personalized, premium grooming service. We highly recommend booking your appointment through our simple online scheduling system to secure your preferred time. If you prefer, appointments can also be set up via text or phone. This structured approach minimizes wait times and helps us deliver a consistently outstanding barbershop experience."
+            },
+            {
+                "question": "How do I reschedule or cancel my appointment and what is your refund policy?",
+                "answer": "You can reschedule or cancel your appointment quickly through our online scheduling platform, as well as by text or phone—whichever is most convenient for you. Please note that to be eligible for a refund, cancellations must be made at least one hour before your scheduled appointment time. Cancellations made less than one hour before, as well as no-shows, are non-refundable, with no exceptions. This policy helps us maintain efficient scheduling and ensures every client receives the dedicated service they expect."
+            },
+             {
+                "question": "Do you offer early/after hours services?",
+                "answer": "Yes, we do offer early and after-hours services for an additional fee. Whether you're in need of an early morning cut or a late-evening appointment, our flexible scheduling options cater to busy lifestyles. Please contact us to confirm availability and pricing details."
+            }
+        ]
+    }
+}

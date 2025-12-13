@@ -1,0 +1,15 @@
+/cloudflare/square-catalog-list/.env
+/cloudflare/square-catalog-list/node_modules
+/cloudflare/square-catalog-list/package-lock.json
+/cloudflare/square-bookings-availability/.env
+/cloudflare/square-bookings-availability/node_modules
+/cloudflare/square-bookings-availability/package-lock.json
+/frontend/node_modules
+/frontend/package-lock.json
+
+node_modules
+package-lock.json
+
+/api
+/cloudflare
+/infra
