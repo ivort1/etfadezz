@@ -1,15 +1,24 @@
-/cloudflare/square-catalog-list/.env
-/cloudflare/square-catalog-list/node_modules
-/cloudflare/square-catalog-list/package-lock.json
-/cloudflare/square-bookings-availability/.env
-/cloudflare/square-bookings-availability/node_modules
-/cloudflare/square-bookings-availability/package-lock.json
-/frontend/node_modules
-/frontend/package-lock.json
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
 
 node_modules
-package-lock.json
+dist
+dist-ssr
+*.local
 
-/api
-/cloudflare
-/infra
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
