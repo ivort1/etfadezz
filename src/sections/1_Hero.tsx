@@ -1,5 +1,4 @@
 import database from '../data/database.json';
-import BookingConfirmation from '../pages/Confirmation';
 
 export default function Hero() {
   const information = database.information;
@@ -52,8 +51,6 @@ export default function Hero() {
             </a>
           </div>
         </div>
-
-        <a href="/src/pages/Confirmation.tsx" className='text-white text-2xl'>Confirmation</a>
       </div>
     )
 };
