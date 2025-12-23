@@ -4,11 +4,11 @@ export default function Services() {
     const services = database.services;
 
     return(
-      <div className="min-h-full bg-zinc-950 px-5 py-12">
+      <section id="Services" className="min-h-full bg-zinc-950 px-5 py-12">
         {/* Section Header */}
         <div className="mb-8">
           <p className="text-amber-500/80 text-xs tracking-[0.3em] uppercase mb-2">What We Offer</p>
-          <h2 className="text-2xl text-zinc-100" style={{ fontFamily: 'Georgia, serif' }}>Services</h2>
+          <h2 className="text-2xl text-zinc-100" style={{ fontFamily: 'Merriweather Variable, serif' }}>Services</h2>
         </div>
 
         {/* Service Cards */}
@@ -46,6 +46,6 @@ export default function Services() {
             ))
           }
         </div>
-      </div>
+      </section>
     )
 };

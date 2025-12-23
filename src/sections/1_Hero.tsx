@@ -23,9 +23,9 @@ export default function Hero() {
             <p className="text-amber-500/80 text-xs tracking-[0.25em] uppercase">Est. 2023</p>
           </div>
 
-          <h1 className="text-4xl leading-tight mb-4" style={{ fontFamily: 'Georgia, serif' }}>
+          <h1 className="text-4xl leading-tight mb-4" style={{ fontFamily: 'Merriweather Variable, serif' }}>
             <span className="text-zinc-100">Premium Barber</span><br/>
-            <span className="text-amber-300 italic">Fontana, CA</span>
+            <span className="text-amber-400 italic">Fontana, CA</span>
           </h1>
 
           <p className="text-zinc-400 text-sm leading-relaxed mb-8 max-w-xs">
