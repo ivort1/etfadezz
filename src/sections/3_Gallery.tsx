@@ -37,14 +37,15 @@ export default function Gallery() {
       </div>
 
       {/* Photo Grid */}
-      <div className="columns-2 md:columns-3 gap-2 px-4">
+      <div className="columns-2 md:columns-3 lg:columns-4 gap-2">
         {images.map((src, index) => (
-            <img
-              src={src}
-              alt={`Gallery image ${index + 1}`}
-              className="w-full h-auto rounded shadow-md hover:shadow-xl transition-shadow duration-300 break-inside-avoid mb-2"
-              loading="lazy"
-            />
+          <img
+            src={src}
+            alt={`Gallery image ${index + 1}`}
+            key={index}
+            className="w-full h-auto rounded mb-2 break-inside-avoid"
+            loading="lazy"
+          />
         ))}
       </div>
 
