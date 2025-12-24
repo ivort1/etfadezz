@@ -51,7 +51,7 @@ export default function Footer() {
         </div>
 
         {/* Hours */}
-        <div className="bg-slate-800/50 rounded-xl p-12 border border-slate-700">
+        <div className="bg-slate-900 rounded-xl p-12 border border-slate-700">
           <p className="text-blue-500 text-xs font-semibold tracking-widest uppercase text-center mb-6">Studio Hours</p>
           <div className="space-y-2 text-sm">
             {
