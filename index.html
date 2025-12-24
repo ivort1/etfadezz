@@ -8,18 +8,32 @@
     <link rel="manifest" href="/manifest.json" />
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 
-     <!-- Add to homescreen for ios -->
+    <!-- Add to homescreen for ios -->
+    <meta name="theme-color" content="#020618" />
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="ET Fadezz" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
     <style>
-      body {
-        background-color: oklch(12.9% 0.042 264.695);
+      html, body {
+        background-color: #020618;
       }
+
+      .status-bar-spacer {
+        position:fixed;
+        inset:0 0 auto 0;
+        height:env(safe-area-inset-top);
+        background:#020618;
+        z-index:9999;
+        pointer-events:none;
+        -webkit-backdrop-filter: blur(6px);
+        backdrop-filter: blur(6px);
+      }
+
     </style>
   </head>
   <body>
+    <div class="status-bar-spacer"></div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>

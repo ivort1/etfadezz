@@ -6,7 +6,7 @@ export default function Footer() {
   const business_hours = database.business_hours;
 
   return (
-    <div className="min-h-full bg-slate-900 flex flex-col">
+    <div className="min-h-full bg-slate-950 flex flex-col">
       {/* Main Footer */}
       <div className="flex-1 px-5 py-12">
         {/* Logo */}

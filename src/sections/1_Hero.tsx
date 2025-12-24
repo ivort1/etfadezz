@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <div className="pb-16 relative bg-linear-to-b from-slate-950 via-slate-900 to-slate-950 [clip-path:polygon(0_0,100%_0,100%_90%,0_100%)]">
       {/* Subtle glow */}
-      <div className="absolute top-0 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="absolute top-40 right-0 w-64 h-64 bg-blue-500/10 rounded-full blur-3xl"></div>
       
       {/* Navigation */}
       <div className="relative z-10 flex items-center justify-between px-5 pt-12 pb-4">
