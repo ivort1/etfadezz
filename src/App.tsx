@@ -9,12 +9,12 @@ import Footer from "./components/layout/Footer";
 export default function App() {
 
   return (
-    <>
-      <Hero />
-      <Services />
-      <Gallery />
-      <FAQs />
-      <Footer />
-    </>
+      <div className="min-h-screen pt-[env(safe-area-inset-top)] pb-[env(safe-area-inset-bottom)]">
+        <Hero />
+        <Services />
+        <Gallery />
+        <FAQs />
+        <Footer />
+      </div>
   )
 }
