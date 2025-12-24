@@ -11,7 +11,7 @@ export default function Hero() {
       {/* Navigation */}
       <div className="relative z-10 flex items-center justify-between px-5 pt-12 pb-4">
         <img src="logo-white.svg" alt="Logo for ET Fadezz" className="w-28" />
-        <a href="https://cal.com/etfadezz" className="border border-blue-400 text-blue-400 text-xs px-12 py-2 rounded tracking-wider hover:border-blue-500 hover:text-blue-500 transition-colors">
+        <a href="https://cal.com/etfadezz" className="border border-blue-500 text-blue-500 text-xs px-12 py-2 rounded tracking-wider hover:border-blue-400 hover:text-blue-400 transition-colors">
           BOOK
         </a>
       </div>
@@ -35,7 +35,7 @@ export default function Hero() {
 
         {/* CTA Buttons */}
         <div className="space-y-3">
-          <a href="https://cal.com/etfadezz" className="w-full bg-blue-400 hover:bg-blue-500 text-white font-medium py-4 rounded-lg flex items-center justify-center gap-3 shadow-lg transition-colors">
+          <a href="https://cal.com/etfadezz" className="w-full bg-blue-500 hover:bg-blue-400 text-white font-medium py-4 rounded-lg flex items-center justify-center gap-3 shadow-lg transition-colors">
             <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" />
             </svg>

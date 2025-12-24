@@ -26,7 +26,7 @@ export default function FAQs() {
             key={i} 
             className="bg-white border border-slate-200 rounded-xl overflow-hidden px-4 py-1 data-[state=open]:bg-blue-50 data-[state=open]:border-blue-200 last:border-b"
           >
-            <AccordionTrigger className="text-sm font-medium text-slate-700 data-[state=open]:text-blue-600 [&>svg]:text-slate-400 data-[state=open]:[&>svg]:text-blue-600">
+            <AccordionTrigger className="text-sm font-medium text-slate-700 data-[state=open]:text-blue-700 [&>svg]:text-slate-400 data-[state=open]:[&>svg]:text-blue-700">
               {question}
             </AccordionTrigger>
             <AccordionContent className="text-slate-500 text-sm leading-relaxed">
@@ -39,10 +39,7 @@ export default function FAQs() {
       {/* Contact CTA */}
       <div className="mt-8 p-5 rounded-2xl bg-white border border-slate-200 text-center">
         <p className="text-slate-600 text-sm mb-3">Still have questions?</p>
-        <a 
-          href={`sms:${information.phone}`}
-          className="inline-block bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-2.5 rounded-lg text-sm transition-colors"
-        >
+        <a href={`sms:${information.phone}`} className="inline-block bg-blue-700 hover:bg-blue-600 text-white font-medium px-6 py-2.5 rounded-lg text-sm transition-colors">
           Send us a Text
         </a>
       </div>

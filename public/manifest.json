@@ -1,6 +1,6 @@
 {
-  "theme_color": "#0f0f46",
-  "background_color": "#0f0f46",
+  "theme_color": "oklch(12.9% 0.042 264.695)",
+  "background_color": "oklch(12.9% 0.042 264.695)",
   "display": "fullscreen",
   "short_name": "ET Fadezz",
   "name": "ET Fadezz",
