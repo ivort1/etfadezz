@@ -29,11 +29,11 @@ export default function Gallery() {
   const social_media = database.social_media;
 
   return(
-    <section id="Our Work" className="min-h-full bg-zinc-950 py-12">
+    <section id="Our Work" className="min-h-full bg-slate-50 py-12">
       {/* Section Header */}
       <div className="px-5 mb-6">
-        <p className="text-amber-500/80 text-xs tracking-[0.3em] uppercase mb-2">Photo Gallery</p>
-        <h2 className="text-2xl text-zinc-100" style={{ fontFamily: 'Merriweather Variable, serif' }}>Our Work</h2>
+        <p className="text-slate-500 text-xs font-semibold tracking-[0.3em] uppercase mb-2">Photo Gallery</p>
+        <h2 className="text-2xl text-slate-900" style={{ fontFamily: 'Merriweather Variable, serif' }}>Our Work</h2>
       </div>
 
       {/* Photo Grid */}

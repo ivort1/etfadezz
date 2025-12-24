@@ -7,46 +7,46 @@
     },
     "business_hours": [
         {
-            "day": "Monday",
+            "day": "Mon",
             "open": "10am",
             "close": "7pm",
             "closed": false
         },
         {
-            "day": "Tuesday",
+            "day": "Tue",
             "open": "10am",
             "close": "7pm",
             "closed": false
         },
         {
-            "day": "Wednesday",
+            "day": "Wed",
             "open": "10am",
             "close": "7pm",
             "closed": false
         },
         {
-            "day": "Thursday",
+            "day": "Thu",
             "open": "10am",
             "close": "7pm",
             "closed": false
         },
         {
-            "day": "Friday",
+            "day": "Fri",
             "open": "9am",
             "close": "3pm",
             "closed": false
         },
         {
             
-            "day": "Saturday",
-            "open": "Check online",
+            "day": "Sat",
+            "open": "Varies",
             "close": "",
             "closed": false
         },
         {
             
-            "day": "Sunday",
-            "open": "Check online",
+            "day": "Sun",
+            "open": "Varies",
             "close": "",
             "closed": false
         }
@@ -63,7 +63,7 @@
             "duration": "45 min",
             "popular": false,
             "link": "https://cal.com/etfadezz/haircut",
-            "iconSrc": "clippers.svg"
+            "src": "clippers.svg"
         },
         {
             "name": "Haircut + Beard",
@@ -72,7 +72,7 @@
             "duration": "60 min",
             "popular": true,
             "link": "https://cal.com/etfadezz/haircut-beard",
-            "iconSrc": "recliner.svg"
+            "src": "recliner.svg"
         },
         {
             "name": "House Call",
@@ -81,16 +81,7 @@
             "duration": "Varies",
             "popular": false,
             "link": "https://cal.com/etfadezz/house-call",
-            "iconSrc": "home.svg"
-        },
-        {
-            "name": "Senior Haircut",
-            "description": "A classic haircut designed specifically for clients over 60, offering a comfortable, timeless style.",
-            "price": "15.00",
-            "duration": "45 min",
-            "popular": false,
-            "link": "https://cal.com/etfadezz/senior-haircut",
-            "iconSrc": "haircut.svg"
+            "src": "home.svg"
         },
         {
             "name": "Lineup",
@@ -99,7 +90,7 @@
             "duration": "15 min",
             "popular": false,
             "link": "https://cal.com/etfadezz/lineup",
-            "iconSrc": "blade.svg"
+            "src": "blade.svg"
         },
         {
             "name": "Shave",
@@ -108,7 +99,7 @@
             "duration": "20 min",
             "popular": false,
             "link": "https://cal.com/etfadezz/shave",
-            "iconSrc": "razor.svg"
+            "src": "razor.svg"
         }
     ],
     "faqs": [
@@ -117,8 +108,8 @@
             "answer": "We operate on an appointment-only basis to ensure each client receives personalized, premium grooming service. We highly recommend booking your appointment through our simple online scheduling system to secure your preferred time. If you prefer, appointments can also be set up via text or phone. This structured approach minimizes wait times and helps us deliver a consistently outstanding barbershop experience."
         },
         {
-            "question": "Where is your barbershop located, and what areas do you serve?",
-            "answer": "Our barbershop is proudly based in Fontana, CA. Beyond our Fontana location, we expand our reach with convenient house-call services in cities across San Bernardino County, Orange County, and Los Angeles County. For more detailed information on specific service areas or to verify availability in your neighborhood, please contact us. We're committed to bringing exceptional service right to your doorstep."
+            "question": "Where is your studio located, and what areas do you serve?",
+            "answer": "Our studio is proudly based in Fontana, CA. Beyond our Fontana location, we expand our reach with convenient house-call services in cities across San Bernardino County, Orange County, and Los Angeles County. For more detailed information on specific service areas or to verify availability in your neighborhood, please contact us. We're committed to bringing exceptional service right to your doorstep."
         },
         {
             "question": "How do I reschedule or cancel my appointment and what is your refund policy?",
@@ -126,7 +117,7 @@
         },
         {
             "question": "What payment methods do you accept?",
-            "answer": "Our online scheduling platform accepts all major credit cards along with mobile payment options for a smooth, hassle-free transaction experience. For appointments booked over the phone or via text, we require a deposit using either Zelle or Apple Pay. These options ensure that every scheduling experience is both secure and convenient."
+            "answer": "We accept a variety of payment methods in-person for your convenience, including cash, major credit and debit cards (Visa, MasterCard, American Express, Discover), and mobile payment options such as Apple Pay and Google Pay. Our goal is to make the payment process as seamless as possible, allowing you to focus on enjoying your premium grooming experience."
         },
         {
             "question": "How do you calculate the price of a house call?",
@@ -145,7 +136,7 @@
             "answer": "No, we do not have a public restroom available at our barbershop. We focus exclusively on providing a premium, personalized grooming experience, so please plan accordingly if you require restroom access."
         },
         {
-            "question": "How can I contact your shop for more information or to ask a question?",
+            "question": "How can I contact your studio for more information or to ask a question?",
             "answer": "To reach out for more details about our premium services, simply call or text us at (626) 216-4488. You can also send us a direct message on our Instagram page, @etfadezz. Our team is ready to answer your questions and help guide you toward the best barbershop experience possible."
         }
     ]
